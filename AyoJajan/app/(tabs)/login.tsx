@@ -11,8 +11,8 @@ import {
 const LoginScreen = () => {
   return (
     <View style={styles.container}>
-      <Image source={require("./assets/food-logo.png")} style={styles.logo} />
-      <Text style={styles.title}>Welcome to FoodApp</Text>
+      {/* <Image source={require("./assets/food-logo.png")} style={styles.logo} /> */}
+      <Text style={styles.title}>Welcome to Ayo Jajan App</Text>
       <TextInput
         style={styles.input}
         placeholder="Email"
